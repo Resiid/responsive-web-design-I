@@ -3,6 +3,9 @@
    License: none (public domain)
 */
 
+
+/*
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,6 +27,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+y
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -138,9 +143,12 @@ nav a {
 }
 
 .about  {
+    border-top: 2px solid;
     margin-left: 3%;
+    margin-right: 1.5%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .feature-child {
@@ -149,6 +157,22 @@ nav a {
 }
 
 .abt { 
-    padding: 1%;
+    padding-right: 1%;
     width: 45%;
+}
+
+.middle-img {
+    margin: 1.5%;
+    width: 98%;
+}
+
+
+.about2  {
+    border-bottom: 2px solid;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+
 }
