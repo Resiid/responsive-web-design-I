@@ -138,5 +138,17 @@ nav a {
 }
 
 .about  {
-    border: 1px solid;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-child {
+    padding-left:1%;
+    width: 45%;
+}
+
+.abt { 
+    padding: 1%;
+    width: 45%;
 }
