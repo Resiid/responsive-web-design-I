@@ -191,6 +191,9 @@ h3 {
     padding-bottom: 2%;
 }
 
+
+/* MEDIA QUERIES */
+
 @media (max-width: 500px){
     header {
         height: 50%;
@@ -212,10 +215,18 @@ h3 {
 
     nav a {
         border-top: 1px solid #D3D3D3;
+        margin-top:2%;
         padding: 3%;
         width: 100%;
         text-align: center;
         font-size: 20px;
         color: #D3D3D3
     }
+
+
+    
+    .intro {
+    margin: 1%;
+    background-image: none;
 }
+
